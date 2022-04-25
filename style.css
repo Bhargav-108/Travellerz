@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+:root{
+  --orange:#ffa500;
+}
+
+*::selection{
+  background:orange;
+  color:white;
+}
+
+
+/* home section */
+
+.nav-heading{
+  color: var(--orange)
+}
+
+
+.home{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.home .content{
+  text-align: center;
+}
+
+.home .content h3{
+  font-size: 3.5rem;
+  font-family: 'Nunito', sans-serif !important;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home .content p{
+  font-size: 2rem;
+  color:#fff;
+  padding:.5rem 0;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: bold;
+}
+
+.button{
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:white;
+}
+
+
+.home .video-container video{
+  position: absolute;
+  top:0;left:0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/* pakage section */
+
+.heading{
+  text-align:center;
+  padding: 2rem 0;
+}
+
+.heading span{
+  font-size: 2rem;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: bold;
+  color:var(--orange);
+  background: rgba(255, 165, 0, 0.2);
+  border-radius: .5rem;
+  padding: .2rem 1rem;
+}
+
+
+.images{
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+
+
+/* service */
+
+.service-text{
+  text-align: center;
+
+}
+
+.fas{
+  font-size: 3rem;
+  padding: 2%;
+  color:var(--orange);
+}
+
+
+/* review section */
+.review-card{
+  align-items: center;
+  text-align: center;
+
+}
+
+.review-image{
+   width: 15%;
+   height: 15%;
+
+}
+/* .review-image-3{
+   width: 10%;
+   height: 20%;
+} */
+.review-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+.review-text{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color:  var(--orange);
+  border-radius: 100%;
+}
+.review-heading{
+  padding-top: 1%;
+  font-weight: bold;
+}
+
+
+/* Content us */
+
+.heading span.space{
+  background:none;
+}
+
+.image-contact{
+
+  width: 40%;
+  margin-right: 1px;
+}
+
+/* footer  */
+
+.footer{
+  background: #333;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.heading-footer{
+  color: var(--orange);
+
+}
+
+.text-footer{
+  color: white;
+  font-size: 1rem;
+
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover{
+  color: var(--orange);
+}
+
+.creators{
+  text-decoration: none;
+  color: white;
+}
+.creators:hover{
+  color: var(--orange);
+}
+
+.fab{
+  font-size: 2.5rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  color:white;
+}
+.fab:hover{
+  color: var(--orange);
+}
+
+.brand-name{
+  color: var(--orange);
+  font-size: 1rem;
+  border-top: .01rem solid rgba(255,255,255,.3);
+  padding-top: 1%;
+}
+
+.subscribe-text{
+  color: white;
+  font-size: 90%;
+}
+
+
+@media (max-width:1200px){
+
+  html{
+    font-size: 60%;
+  }
+
+
+}
